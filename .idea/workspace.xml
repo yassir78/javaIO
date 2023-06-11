@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b817339b-152e-4f82-8c44-6bd6998fa3e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaIOdemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AsciiChart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AsciiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NullOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/FileCopier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/FileDumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/FileTyper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/Read.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/StreamCopier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/StreamedTextArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/MailClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/SockerTyper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/URLViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/UrlTyper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/network/WebCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,34 +42,147 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.AsciiChart">
-    <configuration name="AsciiChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AsciiChart" />
+}</component>
+  <component name="RunManager" selected="Application.URLViewer">
+    <configuration name="FileCopier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.FileCopier" />
       <module name="javaIOdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="FileDumper" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.FileDumper" />
       <module name="javaIOdemo" />
+      <option name="PROGRAM_PARAMETERS" value="-d test_file_copier.txt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileTyper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.FileTyper" />
+      <module name="javaIOdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.MailClient" />
+      <module name="javaIOdemo" />
+      <option name="PROGRAM_PARAMETERS" value="yassir.acaf@gmail.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Read" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="files.Read" />
+      <module name="javaIOdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SockerTyper" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.SockerTyper" />
+      <module name="javaIOdemo" />
+      <option name="PROGRAM_PARAMETERS" value="http://www.google.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.URLViewer" />
+      <module name="javaIOdemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="network.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UrlTyper" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="network.UrlTyper" />
+      <module name="javaIOdemo" />
+      <option name="PROGRAM_PARAMETERS" value="http://www.google.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SockerTyper" />
+      <item itemvalue="Application.UrlTyper" />
+      <item itemvalue="Application.FileDumper" />
+      <item itemvalue="Application.MailClient" />
+      <item itemvalue="Application.URLViewer" />
+      <item itemvalue="Application.FileCopier" />
+      <item itemvalue="Application.FileTyper" />
+      <item itemvalue="Application.Read" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AsciiChart" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.URLViewer" />
+        <item itemvalue="Application.MailClient" />
+        <item itemvalue="Application.FileCopier" />
+        <item itemvalue="Application.FileTyper" />
+        <item itemvalue="Application.Read" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +194,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686221969918</updated>
-      <workItem from="1686221971652" duration="34000" />
+      <workItem from="1686221971652" duration="5333000" />
+      <workItem from="1686246781482" duration="3399000" />
+      <workItem from="1686308799104" duration="6067000" />
+      <workItem from="1686497116382" duration="2486000" />
     </task>
     <servers />
   </component>
